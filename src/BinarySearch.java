@@ -1,9 +1,33 @@
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class BinarySearch {
     //https://www.youtube.com/watch?v=94RC-DsGMLo
 
+
     public static void main(String[] args) {
+
+        Node a = new Node();
+        Node b = new Node();
+        Node c = new Node();
+
+        a.val = 1;
+        a.left = b;
+        a.right = c;
+
+        /*
+        a
+        b c
+
+        a -> c
+        Node c.
+
+        c -> a
+
+         */
+
+
+        ////
         Scanner sc = new Scanner(System.in);
 
         // 떡의 개수 N 과 요청한 떡의 길이 M
